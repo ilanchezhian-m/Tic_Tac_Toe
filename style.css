@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(143, 228, 183);
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    color: black;
+    
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+    /* color: aqua; */
+}
+#gameContainer{
+    font-family: 'Permanent Marker',cursive;
+    text-align: center;
+}
+
+#restartBtn {
+    color: white;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: aqua;
+    width: 200px;
+    height: 70px;
+    border-radius: 25px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+h1{
+    background-color: greenyellow;
+    width: auto;
+    color: rgb(248, 248, 248);
+    font-size: 50px;
+    text-shadow: 5px 1px 8px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 8px 80px ;
+    border-radius:15px;
+    border: 5px solid black;
+}
+.cell.x {
+    color: red; /* Change to the color you want for X */
+}
+
+.cell.o {
+    color: blue; /* Change to the color you want for O */
+}
+#statusText{
+    background-color: rgb(16, 134, 238);
+    display: inline-block;
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+
+
+
+
